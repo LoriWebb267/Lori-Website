@@ -1,0 +1,489 @@
+body{
+    background-color: white;
+    
+}
+
+h1 {
+    font-family: Circular Std Bold, Arial, Helvetica, sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+}
+    
+
+.h2 {
+    font-family: Circular Std Bold, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align:left;
+    padding-left: 100px;
+    padding-bottom: -200px;
+    
+}
+
+.h3 {
+    font-family: Circular Std Bold, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.hresize {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.hresize1 {
+    margin-top: -40px;
+    margin-left: -40px;
+    font-size: 60px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+p {
+    font-family: Tahoma, Bold, sans-serif;
+    font-size: 15px;
+    display: flex;
+    color: white;
+    margin-bottom: 275px;
+}
+
+.p1 {
+    font-family: Tahoma, Bold, sans-serif;
+    font-size: 15px;
+    display: flex;
+    color: white;
+    margin-bottom: 280px;
+}
+
+.presize {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.presize1 {
+    display: flex;
+    margin-left: -1100px;
+    margin-top: 250px;
+    margin-right: 650px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.presize2 {
+    display: flex;
+    margin-left: -1000px;
+    margin-top: 750px;
+    margin-right: 670px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.presize3 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 1200px;
+    margin-right: 400px;
+    margin-left: -1500px;
+}
+
+.presize4 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: -550px;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+
+.presize5 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.presize6 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: -0px;
+    margin-left: -30px;
+    margin-right: -0px;
+}
+
+.presize7 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-bottom: -0px;
+    margin-left: -0px;
+    margin-right: -0px;
+}
+
+.presize8 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 330px;
+    margin-bottom: -290px;
+    margin-left: -140px;
+    margin-right: 600px;
+}
+
+.presize9 {
+    display: flex;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 680px;
+    margin-bottom: -290px;
+    margin-left: 600px;
+    margin-right: -100px;
+}
+
+.presize10 {
+    margin-bottom: 20px;
+}
+
+.presize11 {
+    margin-bottom: 20px;
+}
+
+
+
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: center;
+    color: white;
+}
+
+button {
+    border: 0px solid white;
+    border-radius: 0px;
+    font-family: Circular Std Bold, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 20px;
+    margin: 0px;
+    transition-duration: .4s;
+    background-color: rgb(52, 52, 52);
+    
+    color: white;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+    position: absolute;
+   
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: center;
+    padding-left: 400px;
+    padding-top: 80px;
+}
+
+button:hover {
+    background-color: lightgray;
+    color: white;
+}
+
+button:active {
+    background-color: lightgray;
+    box-shadow: 0 5px lightseagreen;
+    transform: translateY(4px);
+}
+
+.section-one {
+    height: 200px;
+    width: auto;  
+    
+}   
+
+.section-two {
+    background-color: rgb(60, 60, 60);
+    height: 4200px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 500px;
+}   
+
+.section-three {
+    background-color: rgb(60, 60, 60);
+    height: 1600px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 1000px;
+}   
+
+.section-four {
+    background-color: rgb(60, 60, 60);
+    height: 2000px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 1500px;
+}   
+
+.section-five {
+    background-color: rgb(60, 60, 60);
+    height: 850px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 2000px;
+}   
+
+.section-six {
+    background-color: rgb(60, 60, 60);
+    height: 850px;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 2500px;
+}   
+
+.resize {
+    display: flex;
+    width: 30%;
+    height: 7.5%;
+    margin-top: 800px;
+    margin-left: -215px;
+    
+}
+
+.resize1 {
+    padding-top: 150px;
+    margin-left: 250px;
+    display: flex;
+    width: 70%;
+    height: 11.65%;
+    
+}
+
+.resize2 {
+    position:fixed;
+
+}
+
+.resize3 {
+    width: 30px;
+    height:auto;
+    position:absolute;
+    padding-left: 505px;
+    padding-top: 20px;
+}
+
+.resize4 {
+    margin-top: 50px;
+    margin-left: 670px;
+    padding-top: 80px;
+    height: 26.5%;
+    width: auto;
+    position: relative;
+}
+
+.resize5 {
+    margin-top: 600px;
+    margin-left: -1340px;
+    height: 26.5%;
+    width: auto;
+    position: relative;
+}
+
+.resize6 {
+    margin-top: 1025px;
+    margin-left: 740px;
+    height: 26.5%;
+    width: auto;
+    position: relative;
+}
+
+.resize7 {
+    height: 23%;
+    width: auto;
+    padding-top: 600px;
+    margin-left: 250px;
+}
+
+.resize8 {
+    height: 23%;
+    width: auto;
+    margin-top: 1300px;
+    margin-left: -1400px;
+}
+
+.resize9 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 1150px;
+    margin-left: -315px;
+}
+
+.resize10 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 1500px;
+    margin-left: -315px;
+}
+
+.resize11 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 1850px;
+    margin-left: -315px;
+}
+
+.resize12 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 2200px;
+    margin-left: -315px;
+}
+
+.resize13 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 2550px;
+    margin-left: -315px;
+}
+
+.resize14 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 2900px;
+    margin-left: -315px;
+}
+
+.resize15 {
+    width: 30%;
+    height: 7.5%;
+    display: flex;
+    margin-top: 3250px;
+    margin-left: -315px;
+}
+
+.resize16 {
+    margin-top: 180px;
+    margin-left: 200px;
+}
+
+.bresize {
+    margin-top: 60px;
+    display:block;
+    margin-right: 100px;;
+    margin-left: 100px;
+}    
+
+
+
+
+
+
+.p2 {
+    position: absolute;
+}
+
+.textcontainer {
+    width: 3000px;
+    height: 2700px;
+    margin-top: 790px;
+    padding: 100px;
+    text-align: justify;
+    margin-left: -30px;
+    margin-right: 100px;
+}
+
+.textcontainer1 {
+    width: 2500px;
+    height: 200px;
+    margin-top: 280px;
+    margin-left: -1000px; 
+}
+
+.textcontainer2 {
+    width: 2500px;
+    height: 3000px;
+    margin-top: 150px;
+    margin-left: -500px; 
+    margin-right: 200px;
+    text-align: justify;
+    
+}
+
+.textcontainer3 {
+    width: 300px;
+    height: 800px;
+    margin-top: 200px;
+    margin-left: -250px;
+    margin-right: 300x;
+    text-align: justify;
+    
+    
+    
+}
+
+.textcontainer4 {
+    width: 800px;
+    height: 800px;
+    margin-top: 200px;
+    margin-left: -250px;
+    margin-right: 300x;
+    text-align: justify;
+    
+    
+    
+}
+
+
+
+    
